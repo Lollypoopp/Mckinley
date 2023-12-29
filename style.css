@@ -36,7 +36,7 @@ a
     font-size: 18px;
     line-height: 35px;
     color: #fff;
-    padding: 12px 24px;
+    padding: 16px 26px;
     background-color: #00486D;
     border-radius: 4px;;
 }
@@ -59,7 +59,7 @@ h2
 .learn-link
 {
     display: flex;
-    gap: 8px;
+    gap: 13px;
 }
 
 .learn-card-link-img
@@ -118,6 +118,10 @@ nav
     font-size: 20px;
 }
 
+a{
+    color: #00486D;
+}
+
 .nav-menu-items
 {
     display: flex;
@@ -147,12 +151,19 @@ nav
     padding-top: 36px;
     display: flex;
     gap: 32px;
+    margin-right: 12px;
+}
+
+.contacts-button
+{
+    margin-right: -10px;
 }
 
 .number
 {
     font-size: 17px;
     line-height: 35px;
+    margin-right: 10px;
 }
 
 /* ----------------первый экран----------------- */
@@ -231,7 +242,7 @@ h1
 
 .areas
 {
-    margin-top: 160px;
+    margin-top: 158px;
 }
 
 .areas-text
@@ -241,7 +252,7 @@ h1
     max-width: 605px;
     height: 84px;
     margin-top: 25px;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
 }
 
 .areas-cards
@@ -261,7 +272,7 @@ h1
 
 .areas-card-content
 {
-    padding-top: 41px;
+    padding-top: 36px;
     padding-left: 33px;
 }
 
@@ -369,15 +380,16 @@ h1
     line-height: 35px;
     max-width: 309px;
     padding-top: 23px;
-    padding-bottom: 72px;
+    padding-bottom: 76px;
 }
 
 .about-block-button-link
 {
     color: #00486D;
     background-color: #F2F6F7;
-    padding: 12px 24px;
+    padding: 18px 26px;
     border-radius: 4px;
+    font-size: 18px;
 }
 
 /* ---------------quote---------------- */
@@ -393,6 +405,7 @@ h1
 .text-container
 {
     text-align: center;
+    margin-left: 70px;
 }
 
 .quote-text
@@ -401,10 +414,12 @@ h1
     font-size: 32px;
     line-height: 51.2px;
     max-width: 723px;
+    margin-top: 15px;
 }
 
 .quote-author
 {
+    padding-top: 16px;
     font-size: 15px;
     line-height: 35px; 
 }
@@ -441,7 +456,7 @@ h1
 
 .articles-card-content
 {
-    padding-top: 40px;
+    padding-top: 35px;
     padding-left: 32px;
 }
 
@@ -475,7 +490,7 @@ h1
 
 .consultation
 {
-    margin-top: 160.33px;
+    margin-top: 148px;
     background-color: #E4ECF0;
     height: 545px;
     display: flex;
@@ -492,6 +507,12 @@ h1
     padding-bottom: 52px;
 }
 
+.contacts-button-link-2
+{
+    padding: 16px 26px 16px 30px;
+    margin-left: -6px;
+}
+
 /* -----------футер------------- */
 
 footer
@@ -501,6 +522,9 @@ footer
     color: #99B6C5;
 }
 
+.foot{
+    color:#99B6C5;
+}
 .footer-copyrigth
 {
     background-color: #002B41;
@@ -514,7 +538,7 @@ footer
 
 .footer-items
 {
-    padding-top: 40.67px;
+    padding-top: 36px;
     font-size: 19px;
     line-height: 35px;
 }
@@ -527,7 +551,15 @@ footer
 
 .networks
 {
-    padding-top: 64px;
+    padding-top: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.network-name-2
+{
+    font-size: 19px;
 }
 
 .network
@@ -553,11 +585,12 @@ footer
 .footer-information-left
 {
     width: 396.66px;
+    padding-top: 20px;
 }
 
 .footer-information-right
 {
-    padding-top: 120px;
+    padding-top: 138px;
 }
 
 .news-text
@@ -580,6 +613,7 @@ form
 {
     display: flex;
     align-items: center;
+    padding-top: 20px;
 }
   
 input[type="email"] 
@@ -596,7 +630,8 @@ input[type="email"]::placeholder
     color: #00486D;
     font-size: 19px;
     line-height: 35px;
-    padding-left: 23px;
+    padding-left: 21px;
+    padding-top: 10px;
 }
   
 button 
@@ -618,6 +653,7 @@ button
 
 .footer-copyrigth-container
 {
+    margin-top: 17px;
     margin-left: 24px;
     margin-right: 24px;
     display: flex;
